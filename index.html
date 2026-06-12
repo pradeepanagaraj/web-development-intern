@@ -11,6 +11,7 @@
 <body>
      <header>
      <h1>Pradeepa Portfolio</h1>
+     <button onclick="toggleTheme()">Dark Mode</button>
       <nav aria-label="Main Navigation">
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
@@ -55,5 +56,11 @@
 <footer>
     <p>© 2026 Pradeepa</p>
 </footer>
+<script>
+function toggleTheme() {
+    document.body.classList.toggle("dark-mode");
+}
+</script>
 </body>
 </html>
+        
